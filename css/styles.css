@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,body{
+    height: 100%;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+  }
+
+  .author-info a {
+    text-decoration: none;
+  }
+
+header h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+
+    
+}
+
+header p{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+header{
+    margin: 60px;
+}
+
+#paragraph-1{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 100px;
+
+}
+
+ol{
+    padding-left: 25px;
+}
+
+#paragraph-2{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+
+ul{
+    margin-left: 25px;
+}
+
+#body-content{
+    background-color: #F8FAFC;
+    flex-grow: 1; /* Allows body-content to expand and fill remaining space */
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: #4E80EE;
+}
